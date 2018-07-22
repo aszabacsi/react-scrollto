@@ -1,6 +1,6 @@
 # react-scrollto
 
-> Animated scrolling to anchors
+> ScrollIntoView wrapper component for React
 
 [![NPM](https://img.shields.io/npm/v/react-scrollto.svg)](https://www.npmjs.com/package/react-scrollto) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -13,9 +13,9 @@ npm install --save react-scrollto
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-import { AnchorWithOptions } from 'react-scrollto'
+import { AnchorWithOptions } from 'react-scrollto';
 
 const Anchor = AnchorWithOptions({
   behaviour: 'smooth'
