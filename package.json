@@ -1,5 +1,5 @@
 {
-  "name": "react-scrollto",
+  "name": "@aszabacsi/react-scrollto",
   "version": "1.0.0",
   "private": false,
   "dependencies": {
