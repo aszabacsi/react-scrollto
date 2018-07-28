@@ -1,7 +1,9 @@
 {
   "name": "@aszabacsi/react-scrollto",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "private": false,
+  "main": "./build/dist/index.js",
+  "license": "MIT",
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
