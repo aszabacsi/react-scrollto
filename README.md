@@ -39,9 +39,9 @@ class Example extends Component {
   render () {
     return (
       <div>
-        <button onClick={thid.scrollTo('first')}>First</button>
-        <button onClick={thid.scrollTo('second')}>Second</button>
-        <button onClick={thid.scrollTo('third')}>Third</button>
+        <button onClick={this.scrollTo('first')}>First</button>
+        <button onClick={this.scrollTo('second')}>Second</button>
+        <button onClick={this.scrollTo('third')}>Third</button>
         <p>Some text here...</p>;
           <Anchor anchor='first'>First</Anchor>;
         <p>Some text here...</p>;
