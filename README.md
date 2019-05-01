@@ -13,9 +13,11 @@ npm install --save @aszabacsi/react-scrollto
 
 ## Description
 
-The Anchor component decorates the child component with an anchor passed to it's hash property. You can override the default scrolling behaviour by creating a custom Anchor type using the anchorWithOptions higher-order component. You have to pass Anchor component as it's first argument and the options object as the second. The option object is the same as the the built-in options objects of the vanilla scrollIntoView function.
+Creating scroll into view animations in a declarative style using React components. You can ovverride the default scroll behaviour by creating your own custom component using the anchorWithOptions HOC.
 
 ## Usage
+
+Wrap the autoscroll target components with the base Anchor component (or create your own using the anchorWithOptions HOC).
 
 ```jsx
 import React, { Component } from 'react';
@@ -31,12 +33,15 @@ const setHash = (hash) => {
 }
 
 class Example extends Component {
+  scrollTo = (hash) => {
+    setHash(hash);
+  }
   render () {
     return (
       <div>
-        <button onClick={setHash.bind(null, 'first')}>First</button>
-        <button onClick={setHash.bind(null, 'second')}>Second</button>
-        <button onClick={setHash.bind(null, 'third')}>Third</button>
+        <button onClick={thid.scrollTo('first')}>First</button>
+        <button onClick={thid.scrollTo('second')}>Second</button>
+        <button onClick={thid.scrollTo('third')}>Third</button>
         <p>Some text here...</p>;
           <Anchor anchor='first'>First</Anchor>;
         <p>Some text here...</p>;
