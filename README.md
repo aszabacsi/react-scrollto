@@ -4,6 +4,7 @@
 
 
 [![NPM](https://img.shields.io/npm/v/@aszabacsi/react-scrollto.svg)](https://www.npmjs.com/package/@aszabacsi/react-scrollto) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+<img src='https://travis-ci.org/aszabacsi/react-scrollto.svg?branch=master'/>
 
 ## Install
 
